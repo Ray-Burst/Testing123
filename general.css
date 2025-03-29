@@ -1,0 +1,78 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(33, 33, 33);
+}
+
+button{
+  cursor: pointer;
+}
+
+select{
+  cursor: pointer;
+}
+
+input, select, button{
+  font-family: sans-serif;
+}
+
+.button-primary{
+  cursor:  pointer;
+  background-color: rgb(20, 20, 20);
+  color: rgb(240, 136, 4);
+  border: none;
+  border-radius: 8px;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+.button-primary:hover{
+  background-color: black;
+  border: 1px solid rgb(242, 194, 0);
+}
+
+.button-primary:active{
+  border: none;
+  box-shadow: none;
+}
+
+.button-secoundery{
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+.button-secoundery:hover{
+  border: 1px solid rgb(130, 130, 130);
+  background-color: rgb(223, 223, 223);
+}
+
+.button-secoundery:active{
+  border: none;
+  box-shadow: none;
+}
+
+select {
+  color: rgb(33, 33, 33);
+  background-color: rgb(240, 240, 240);
+  border: 1px solid rgb(213, 217, 217);
+  border-radius: 8px;
+  padding: 3px 5px;
+  font-size: 15px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(213, 217, 217, 0.5);
+}
+
+select:focus,
+input:focus {
+  outline: 2px solid rgb(255, 153, 0);
+}
+
+.link-primary {
+  color: rgb(1, 124, 182);
+  cursor: pointer;
+}
+
+.link-primary:hover {
+  color: rgb(196, 80, 0);
+}
